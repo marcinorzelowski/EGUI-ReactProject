@@ -1,0 +1,44 @@
+﻿.calendar {
+    background-color: ghostwhite;
+    margin-top: 20px;
+}
+
+
+.card {
+    padding: 10px;
+}
+
+
+.calendarHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell {
+    text-align: center;
+}
+
+.weekDays {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.day:hover {
+    background-color: cornflowerblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+.active {
+    background-color: cornflowerblue;
+}

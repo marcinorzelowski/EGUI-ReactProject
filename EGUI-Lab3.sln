@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EGUI-Lab3", "EGUI-Lab3.csproj", "{FD1CDBA5-E007-47CD-A615-284F9B3EB8A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD1CDBA5-E007-47CD-A615-284F9B3EB8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1CDBA5-E007-47CD-A615-284F9B3EB8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1CDBA5-E007-47CD-A615-284F9B3EB8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1CDBA5-E007-47CD-A615-284F9B3EB8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BC5393D-01A6-4032-8681-A639119B8714}
+	EndGlobalSection
+EndGlobal
