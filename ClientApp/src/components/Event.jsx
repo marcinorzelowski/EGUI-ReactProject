@@ -20,7 +20,7 @@ class Event extends Component {
         fetch("https://localhost:44346/api/event/" + this.props.match.params.id)
             .then((res) => res.json())
             .then((result) => {
-                console.log(result);
+
                 this.setState({
                     event: result,
                     loaded: true
@@ -29,7 +29,7 @@ class Event extends Component {
     }
 
     handleSubmit(event) {
-        console.log(this.state.event);
+      
 
         fetch("https://localhost:44346/api/event/" + this.state.event.id, {
             method: "PUT",
@@ -89,7 +89,7 @@ class Event extends Component {
         return (
             <div>
                 <div className="card">
-                    <div className="card-header">Event Editor</div>
+                    <div className="card-header"><h3>Event Editor</h3></div>
                     <div className="card-body"></div>
                     <div className="input-group mb-3">
                         <div className="input-group-prepend">
@@ -129,9 +129,11 @@ class Event extends Component {
                             defaultValue={this.state.event.date.substr(0, 10)}
                             onChange={this.onChangeDate}
                         ></input>
-                        <div className="input-group mb-3">
+                     </div>
+                    <div className="input-group mb-3">
+                        <div>
                             <button
-                                className="btn btn-success mt-2"
+                                className="btn btn-success"
                                 onClick={this.handleSubmit}
                             >
                                 Submit

@@ -5,7 +5,7 @@
 
 
 .card {
-    padding: 10px;
+    margin-top: 20px;
 }
 
 
@@ -41,4 +41,21 @@ h3 {
 
 .active {
     background-color: cornflowerblue;
+}
+
+.btn {
+    margin-left: 5px;
+    padding: 4px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.input-group {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.addEv {
+    margin-bottom: 20px;
+    margin-left: 20px;
 }

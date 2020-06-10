@@ -100,7 +100,7 @@ class Day extends Component {
                 </table>
                 </div>
                 <Link to="/event-add">
-                    <button className="btn btn-success">Add event</button>
+                    <button className="btn btn-success addEv">Add event</button>
                 </Link>
             </div>
 

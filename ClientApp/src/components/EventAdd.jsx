@@ -59,7 +59,7 @@ class EventAdd extends Component {
         return (
             <div>
                 <div className="card">
-                    <div className="card-header">Event Creator</div>
+                    <div className="card-header"><h3>Event Creator</h3></div>
                     <div className="card-body"></div>
                     <div className="input-group mb-3">
                         <div className="input-group-prepend">
